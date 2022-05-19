@@ -183,5 +183,5 @@ export var json = {
     },
   ],
   showTitle: true,
-  completedHtml: "<p><h4>謝謝你的報名，我們將以Line官方帳號與你聯絡！</h4></p>"
+  completedHtml: "<p><h2>謝謝你的報名，我們將以Line官方帳號與你聯絡！</h2></p>"
 };

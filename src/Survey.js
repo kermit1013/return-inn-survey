@@ -14,6 +14,14 @@ function onValueChanged(result) {
 
 function onComplete(result) {
     console.log("Complete! " + result);
+    // Simple POST request with a JSON body using fetch
+    const requestOptions = {
+        method: 'POST',
+        headers: { 'Content-Type': 'text/plain' },
+        body: JSON.stringify(result)
+    };
+    fetch('https://script.google.com/macros/s/AKfycbw7hAM606qYcw_3gHLkL64Yc1n95Q40aIm5NaeG5PR_B8cLsbjs3ImO0DFfobkXWAXM/exec', requestOptions)
+        .then(response => response.json())
 }
 
 export function SurveyPage() {
