@@ -25,21 +25,21 @@ export var json = {
               elements: [
                 {
                   type: "text",
-                  name: "question9",
+                  name: "name",
                   title: "我們該如何稱呼你",
                   minWidth: "40%",
                   isRequired: true,
                 },
                 {
                   type: "text",
-                  name: "question10",
+                  name: "lineId",
                   title: "Line Id",
                   minWidth: "40%",
                   isRequired: true,
                 },
                 {
                   type: "text",
-                  name: "question11",
+                  name: "tel",
                   title: "聯絡手機",
                   isRequired: true,
                   minWidth: "40%",
@@ -78,16 +78,16 @@ export var json = {
               elements: [
                 {
                   type: "radiogroup",
-                  name: "question6",
+                  name: "order",
                   title: "餐點選擇",
                   isRequired: true,
                   choices: [
                     {
-                      value: "item1",
+                      value: "carnivore",
                       text: "奶油海鮮起司烏龍麵",
                     },
                     {
-                      value: "item2",
+                      value: "vegetarian",
                       text: "時蔬炒烏龍（五辛素）",
                     },
                   ],
@@ -97,7 +97,7 @@ export var json = {
                 },
                 {
                   type: "boolean",
-                  name: "question5",
+                  name: "isUpgrade",
                   title: "升級套餐 +$150",
                   description:
                     "套餐含飲料及甜點</br>本週飲料：桂花紅茶（可以補差價換飲品）</br>本週甜點：重乳酪蛋糕（原味/紅茶/蘭姆）（當天在確認口味即可）",
