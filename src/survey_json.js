@@ -27,12 +27,14 @@ export var json = {
                   type: "text",
                   name: "question9",
                   title: "我們該如何稱呼你",
+                  minWidth: "40%",
                   isRequired: true,
                 },
                 {
                   type: "text",
                   name: "question10",
                   title: "Line Id",
+                  minWidth: "40%",
                   isRequired: true,
                 },
                 {
@@ -40,6 +42,7 @@ export var json = {
                   name: "question11",
                   title: "聯絡手機",
                   isRequired: true,
+                  minWidth: "40%",
                   inputType: "tel",
                 },
               ],
@@ -138,6 +141,7 @@ export var json = {
               elements: [
                 {
                   type: "image",
+                  minWidth: "40%",
                   imageLink: "images/google-map.png",
                 },
               ],
@@ -153,14 +157,14 @@ export var json = {
                 {
                   type: "image",
                   name: "question12",
-                  title: "由我們提供餐點",
-                  description: "參加活動可以餐點或是飲品擇一作為低消即可",
+                  minWidth: "40%",
                   imageLink: "images/line-qr-code.png",
                   text: "Line",
                 },
                 {
                   type: "image",
                   name: "question13",
+                  minWidth: "40%",
                   imageLink: "images/ig-qr-code.jpg",
                 },
               ],
