@@ -10,14 +10,10 @@ export var json = {
         {
           type: "image",
           name: "question8",
-          width: "400px",
-          minWidth: "400px",
-          maxWidth: "400px",
+          width: "40%",
           imageLink:
             "https://images.unsplash.com/photo-1520756977789-ebed5554fb70?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170",
           imageFit: "none",
-          imageHeight: 726,
-          imageWidth: 400,
         },
         {
           type: "panel",
@@ -64,14 +60,10 @@ export var json = {
         {
           type: "image",
           name: "question8",
-          width: "400px",
-          minWidth: "400px",
-          maxWidth: "400px",
+          width: "40%",
           imageLink:
             "https://images.unsplash.com/photo-1520756977789-ebed5554fb70?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170",
           imageFit: "none",
-          imageHeight: 726,
-          imageWidth: 400,
         },
         {
           type: "panel",
@@ -131,14 +123,10 @@ export var json = {
         {
           type: "image",
           name: "question1",
-          width: "400px",
-          minWidth: "400px",
-          maxWidth: "400px",
+          width: "40%",
           imageLink:
             "https://images.unsplash.com/photo-1520756977789-ebed5554fb70?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170",
           imageFit: "none",
-          imageHeight: 726,
-          imageWidth: 400,
         },
         {
           type: "panel",
@@ -191,4 +179,5 @@ export var json = {
     },
   ],
   showTitle: true,
+  completedHtml: "<p><h4>謝謝你的報名，我們將以Line官方帳號與你聯絡！</h4></p>"
 };
