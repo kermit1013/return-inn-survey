@@ -40,6 +40,7 @@ export function SurveyPage() {
     str = str.substring(0, str.length - 4);
     //set html
     options.html = str;
+    survey.focusFirstQuestionAutomatic = false
   });
   return (
     <div className="container">
