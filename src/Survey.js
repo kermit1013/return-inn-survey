@@ -5,7 +5,7 @@ import "survey-core/defaultV2.css";
 import showdown from "showdown";
 import './Survey.css';
 
-import { json } from "./survey_json.js";
+import { json } from "./survey_json_books.js";
 
 Survey.StylesManager.applyTheme("defaultV2");
 
