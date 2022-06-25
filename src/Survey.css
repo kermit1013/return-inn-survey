@@ -2,12 +2,13 @@
     margin-top: 32px;
   }
 
-  body #container {
-    --primary: #1ab7fa;
-    --primary-light: rgba(26, 183, 250, 0.1);
-    --secondary: #1ab7fa;
-    --background: #555555;
-    --background-dim: #4d4d4d;
-    --background-dim-light: #4d4d4d;
-    --foreground: #ededed;
-  }
+.container {
+  --primary: #5D7861;
+  --primary-light: rgba(26, 183, 250, 0.1);
+  --secondary: #5D7861;
+  --background: #ECE0D0;
+  --background-dim: #ECE0D0;
+  --background-dim-light: #b9afa1;
+  --foreground: #5D7861;
+}
+

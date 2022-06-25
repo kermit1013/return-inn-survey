@@ -12,7 +12,7 @@ export var json = {
           name: "question8",
           width: "40%",
           imageLink:
-            "images/july.png",
+            "images/july-min.png",
           imageFit: "true",
         },
         {
@@ -65,7 +65,7 @@ export var json = {
           name: "question8",
           width: "40%",
           imageLink:
-            "images/july-event-list.png",
+            "images/july-event-list-min.png",
           imageFit: "true",
         },
         {
@@ -131,7 +131,7 @@ export var json = {
           name: "question8",
           width: "40%",
           imageLink:
-            "images/dinner.jpg",
+            "images/dinner-min.jpg",
           imageFit: "true",
         },
         {
@@ -183,7 +183,7 @@ export var json = {
           name: "question1",
           width: "40%",
           imageLink:
-            "images/july.png",
+            "images/july-min.png",
           imageFit: "true",
         },
         {
